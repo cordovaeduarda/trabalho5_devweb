@@ -1,0 +1,170 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: #fff;
+    color: #333;
+}
+
+header {
+    background: #fff;
+    padding: 10px 0;
+    border-bottom: 1px solid #ccc;
+    width: 100%;
+}
+
+.header-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between; 
+    align-items: center; 
+    padding: 20px 40px;
+}
+
+.header-container h1 {
+    margin: 0;
+    font-size: 24px;
+}
+
+nav {
+    margin-left: auto;
+}
+
+nav a {
+    margin: 0 10px;
+    text-decoration: none;
+    color: #333;
+    font-size: 14px;
+}
+
+main {
+    display: flex;
+    max-width: 1200px;
+    margin: 20px auto;
+    gap: 20px;
+    padding: 0 20px;
+}
+
+.posts {
+    flex: 3;
+}
+
+article {
+    margin-bottom: 40px;
+}
+
+figure {
+    margin: 0;
+}
+
+figure img {
+    max-width: 100%;
+    height: auto;
+    border: 1px solid #ccc;
+}
+
+figcaption {
+    font-size: 14px;
+    color: #555;
+    margin-top: 4px;
+}
+
+#autor {
+    font-size: 15px;
+}
+
+article h2 {
+    margin: 10px 0;
+    font-size: 20px;
+}
+
+aside {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+aside section {
+    background: #fff;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+}
+
+aside h3 {
+    margin-top: 0;
+}
+
+.categorias ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.categorias li {
+    margin: 10px 0;
+}
+
+.tags {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+}
+
+.tags .tag {
+    background: #e0e0e0;
+    padding: 6px 10px;
+    border-radius: 6px;
+    font-size: 14px;
+    white-space: nowrap;
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+    background: #fff;
+    border-top: 1px solid #ccc;
+    margin-top: 40px;
+}
+
+
+h4 {
+    font-size: 25px;
+    margin: 5px;
+}
+
+
+
+input[type="text"] {
+    width: calc(100% - 100px);
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px 0 0 4px;
+    outline: none;
+}
+
+button {
+    padding: 8px 12px;
+    background: #007BFF;
+    color: #fff;
+    border: none;
+    border-radius: 0 4px 4px 0;
+    cursor: pointer;
+}
+
+button:hover {
+    background: #0056b3;
+}
+
+mark {
+    background-color: transparent;
+    padding: 0;
+}
+
+a {
+    text-decoration: none; 
+    color: inherit;         
+}
